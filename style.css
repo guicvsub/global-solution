@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body {
+    font-family: Arial, sans-serif;
     
     background-image:url(asets/img/17973908.jpg);
 
@@ -25,6 +26,14 @@ body {
     color:cornflowerblue
     
 }
+#titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: cornflowerblue;
+  margin: 40px;
+
+}
 
 #video__topo{
     display: flex;
@@ -45,3 +54,109 @@ justify-content: space-around;
 color: #fff;
 align-items: center;
 }
+footer{
+    background-color: rgb(48, 151, 230)
+}
+
+
+.container {
+    margin: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+#corpo__form{
+    background-image: url(asets/img/vector-JUL-2021-72.jpg);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container{
+    background-color: #fafafa;
+    border-radius: 14px;
+    margin: 14px;
+    max-width: 900px;
+    width: 100%;
+    box-sizing: 0 3px 5px rgba(0,0,0, 0.5);
+    overflow: hidden;
+  }
+  
+  .header{
+    background: linear-gradient(120deg, #3acbf0 0%, #8bb0ff 100%);
+    padding: 24px;
+    text-align: center;
+    color: #FFF;
+  }
+  
+  .form{
+    padding: 18px;
+  }
+  
+  .form-content{
+    margin-bottom: 8px;
+    padding-bottom: 18px;
+    position: relative;
+  }
+  
+  .form-content label{
+    display: inline-block;
+    margin-bottom: 4px;
+  }
+  
+  .form-content input{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid #dfdfdf;
+  }
+  
+  .form-content a{
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    visibility: hidden;
+  }
+  
+  .form button{
+    background-color: #00c3ff;
+    color: #FFF;
+    width: 100%;
+    border-radius: 14px;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 14px;
+  }
+  
+  .form-content.error input{
+    border-color: #ff3b25;
+  }
+  
+  .form-content.error a{
+    color: #ff3b25;
+    visibility: visible;
+  }
+  #titulo-contato{
+    color: rgb(48, 151, 230);
+  }
