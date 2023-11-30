@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-image:url(asets/img/17973908.jpg);
+}
+#video__topo{
+    display: flex;
+    justify-content: center
+} 
+.cointainer__menu{
+    width: 100%;
+    background-color: rgb(48, 151, 230); 
+    font-size: 20px;    
+}
+
+#menu__itens{
+display: flex;
+text-decoration: none;
+justify-content: space-around;
+color: #fff;
+}
