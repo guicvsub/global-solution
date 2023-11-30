@@ -4,16 +4,38 @@
     box-sizing: border-box;
 }
 body {
+    
     background-image:url(asets/img/17973908.jpg);
+
 }
+#img__topo{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#conteiner__texto{
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto__impacto{
+    font-size: 40px;
+    color:cornflowerblue
+    
+}
+
 #video__topo{
     display: flex;
     justify-content: center
+
 } 
 .cointainer__menu{
     width: 100%;
     background-color: rgb(48, 151, 230); 
-    font-size: 20px;    
+    font-size: 20px;
+    height: 40px;    
 }
 
 #menu__itens{
@@ -21,4 +43,5 @@ display: flex;
 text-decoration: none;
 justify-content: space-around;
 color: #fff;
+align-items: center;
 }
