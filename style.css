@@ -23,14 +23,14 @@ body {
 
 #texto__impacto{
     font-size: 40px;
-    color:cornflowerblue
+    color: rgb(48, 151, 131);
     
 }
 #titulo{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: cornflowerblue;
+  color:  rgb(48, 151, 131);
   margin: 40px;
 
 }
@@ -44,7 +44,7 @@ body {
     width: 100%;
     background-color: rgb(48, 151, 230); 
     font-size: 20px;
-    height: 40px;    
+    height: 75px;    
 }
 
 #menu__itens{
@@ -53,9 +53,15 @@ text-decoration: none;
 justify-content: space-around;
 color: #fff;
 align-items: center;
+margin: 30px;
 }
-footer{
-    background-color: rgb(48, 151, 230)
+h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(48, 151, 131);
+  margin-top: 40px;
+  font-size: 40px;
 }
 
 
@@ -159,4 +165,9 @@ th, td {
   }
   #titulo-contato{
     color: rgb(48, 151, 230);
+  }
+  .rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
