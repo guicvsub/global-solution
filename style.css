@@ -19,6 +19,7 @@ body {
     margin-top: 80px;
     align-items: center;
     justify-content: center;
+    margin: 18px;
 }
 
 #texto__impacto{
@@ -54,6 +55,7 @@ justify-content: space-around;
 color: #fff;
 align-items: center;
 margin: 30px;
+
 }
 h3{
   display: flex;
