@@ -93,7 +93,6 @@ th, td {
     background-image: url(asets/img/vector-JUL-2021-72.jpg);
     width: 100%;
     min-height: 100vh;
-    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -106,6 +105,10 @@ th, td {
     width: 100%;
     box-sizing: 0 3px 5px rgba(0,0,0, 0.5);
     overflow: hidden;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
   }
   
   .header{
@@ -117,6 +120,7 @@ th, td {
   
   .form{
     padding: 18px;
+    
   }
   
   .form-content{
